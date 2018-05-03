@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.co.ceiba.test.AccountManagerSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-05-03T18:12:13" hostname="SEBASTIAN-VASQUEZ" time="0.004">
+<testsuite name="com.co.ceiba.test.AccountManagerSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-05-03T18:19:56" hostname="SEBASTIAN-VASQUEZ" time="0.003">
   <properties/>
   <testcase name="itShouldTransfer" classname="com.co.ceiba.test.AccountManagerSpec" time="0.003"/>
   <testcase name="deberiaTransferirEntreDosCuentas" classname="com.co.ceiba.test.AccountManagerSpec" time="0.0"/>
