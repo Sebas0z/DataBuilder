@@ -8,6 +8,7 @@ public class Account {
 	private String number;
 	private int balance;
 	private List<Transaction> transactions;
+	public int HHo = 0;
 
 	public Account(String number, int balanceInicial) {
 		this.number = number;

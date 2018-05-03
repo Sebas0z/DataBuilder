@@ -11,7 +11,6 @@ public class AccountBuilder {
 	private String number;
 	private int balance;
 	private List<Transaction> transactions;
-	private int Hola = 0;
 
 	public AccountBuilder() {
 		number = "12345";
@@ -19,7 +18,6 @@ public class AccountBuilder {
 	}
 
 	public AccountBuilder withNumber(String number) {
-		String PPe = null;
 		this.number = number;
 		return this;
 	}
