@@ -28,7 +28,7 @@ public class AccountBuilder {
 	}
 
 	public AccountBuilder with(TransactionBuilder... transactionBuilders) {
-		transactions = new ArrayList<>();
+		transactions = new ArrayList<Transaction>();
 
 		for (TransactionBuilder transactionBuilder : transactionBuilders) {
 			transactions.add(transactionBuilder.build());
