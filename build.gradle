@@ -12,6 +12,21 @@ plugins {
     id "org.sonarqube" version "2.6.2"
 }
 
+sonarqube {
+    properties {
+    	property "sonar.projectKey", "DataBuilder"
+    	property "sonar.projectName", "DataBuilder"
+    	property "sonar.projectVersion", "0.1.0"
+        property "sonar.sourceEncoding", "UTF-8"
+        property "sonar.java.source", "1.8"
+        property "sonar.java.target", "1.8"
+        property "sonar.sources", "src"
+		property "sonar.java.binaries", "build/classes/java/main"
+		property "sonar.tests", "src/test/java"
+		property "sonar.java.test.binaries", "build/classes/java/test"
+    }
+}
+
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api 'org.apache.commons:commons-math3:3.6.1'
