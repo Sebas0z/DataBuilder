@@ -2,5 +2,5 @@ projectKey=DataBuilder
 serverUrl=http://localhost:9000
 serverVersion=6.7.3.38370
 dashboardUrl=http://localhost:9000/dashboard/index/DataBuilder
-ceTaskId=AWMnb2LVQ-gndFOqVrow
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWMnb2LVQ-gndFOqVrow
+ceTaskId=AWMnjsj_Q-gndFOqVrox
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWMnjsj_Q-gndFOqVrox
